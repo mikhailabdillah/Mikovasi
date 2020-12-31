@@ -1,0 +1,35 @@
+.button {
+  position: relative;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #f5f6f9;
+  color: $theme-dark;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken(#f5f6f9, 5%);
+  }
+
+  &.is-theme {
+    background-color: $theme-primary;
+    color: $theme-dark;
+
+    &:hover {
+      background-color: darken($theme-primary, 5%);
+    }
+  }
+
+  &.is-dark {
+    background-color: $theme-dark;
+    color: #fff;
+
+    &:hover {
+      background-color: darken($theme-dark, 5%);
+    }
+  }
+}

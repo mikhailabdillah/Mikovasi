@@ -1,0 +1,32 @@
+.page-banner {
+  position: relative;
+  display: block;
+  height: 300px;
+  background-color: #ddd; }
+  .page-banner .container,
+  .page-banner .row {
+    height: 100%; }
+
+.home-banner {
+  height: 560px; }
+
+.page-section {
+  position: relative;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.subtitle {
+  font-size: 20px; }
+
+.footer-link {
+  position: relative;
+  padding-left: 0;
+  list-style: none; }
+  .footer-link li {
+    display: block;
+    margin-bottom: 6px; }
+  .footer-link a {
+    display: inline-block;
+    color: #888;
+    text-decoration: none; }

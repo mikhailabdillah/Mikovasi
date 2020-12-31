@@ -2,7 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+
 import reportWebVitals from './reportWebVitals';
+
+// Font icons
+import "./assets/css/maicons.min.css";
+
+// Stylesheet
+
+import "../node_modules/bootstrap/scss/bootstrap.scss";
+import "./assets/scss/style.scss";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 ReactDOM.render(
   <React.StrictMode>
